@@ -1,0 +1,54 @@
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Node / JS (Frontend)
+node_modules/
+/frontend/node_modules/
+dist/
+/frontend/dist/
+.npm
+*-debug.log*
+*-error.log*
+.eslintcache
+
+# Python (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+/backend/.venv/
+/backend/venv/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.state
+.env.db
+*.env
+/backend/.env
+/backend/env
